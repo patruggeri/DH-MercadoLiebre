@@ -3,7 +3,15 @@ const path = require('path');
 
 const app = express();
 
+/* Reemplazamos esta linea:
 app.listen(3010, ()=> console.log("Server is running smoothly on port 3010"));
+
+Por la siguiente:                                                          */
+app.listen(process.env.PORT ? process.env.PORT : 3010, () => {
+    console.log("Server is running smoothly!");
+});
+// Esto nos sirve para enviar el proyecto a Heroku y tenerlo online siempre.
+
 
 app.use(express.static(path.join(__dirname, "public")));
 
