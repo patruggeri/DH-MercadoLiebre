@@ -1,0 +1,89 @@
+/*
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+Tipografías
+Familia: 'Roboto'
+
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+Iconos
+https://fontawesome.com/icons?d=gallery&m=free
+*/
+
+
+/* -------------- GENERAL ELEMENTS -------------- */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-content {
+    padding: 0;
+}
+
+article {
+    background-color: white;
+    margin: 5px 0px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+
+/* -------------- COLORES Y TEXTOS -------------- */
+.yellow-background {
+    background-color: #EAC926;
+}
+
+.lightgrey-background {
+    background-color: #ebebeb;
+}
+
+.regular-text {
+    font-size: 12px;
+}
+
+.text-titles {
+    font-size: 24px;
+    color: #666;
+    padding: 0 15px;
+}
+
+.text-prices {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0;
+    min-width: 30%;
+}
+
+.text-discounts {
+    font-size: 16px;
+    color: #39b54a;
+    margin: 0;
+    padding: 10px 0 10px 3px;
+    flex-grow: 1;
+}
+
+.text-descriptions {
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}

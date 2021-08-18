@@ -1,0 +1,36 @@
+<form action="" method="POST">
+    <div>
+        <label for="">Nombre del producto:</label>
+        <input type="text" name="nombre">
+    </div>
+    <div>
+        <label for="">Precio:</label>
+        <input type="number" name="precio">
+    </div>
+    <div>
+        <label for="">Está en oferta?</label>
+        <label><input type="radio" name="enOferta">Sí</label>
+        <label><input type="radio" name="enOferta">No</label>
+    </div>
+    <div>
+        <label for="">Categoría:</label>
+        <select name="categoria">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electro</option>
+            <option value="indumentaria">Indumentaria</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Ciudad:</label>
+        <select name="ciudad">
+            <option value="bue">Buenos Aires</option>
+            <option value="ros">Rosario</option>
+            <option value="mdz">Mendoza</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Descripción del producto:</label>
+        <textarea name="descripcion"></textarea>
+    </div>
+    <button type="submit">GUARDAR</button>
+</form>

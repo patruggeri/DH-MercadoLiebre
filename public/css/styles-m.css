@@ -1,0 +1,54 @@
+/*
+-----> @media (min-width: 480px){}
+       No lo declaramos, porque agregamos la condicion 
+       al <head> del html <-----
+*/
+.header-flex {
+    justify-content: space-between;
+}
+
+.nav-bar-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.nav-bar {
+    display: unset;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.nav-list li {
+    padding: 7px;
+}
+
+.text-descriptions {
+    opacity: 0;
+    margin: 14px 0 0;
+}
+
+.item:hover .text-descriptions {
+    opacity: 1;
+}
+
+.item {
+    box-shadow: none;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+    
+.product-wrapper {
+    width: 50%;
+}
+
+
+/* -------------- LOGIN PAGE -------------- */
+
+.register-form {
+    width: 550px;
+}
