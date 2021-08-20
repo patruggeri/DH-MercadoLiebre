@@ -28,6 +28,7 @@ https://fontawesome.com/icons?d=gallery&m=free
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 #main-content {
@@ -43,6 +44,9 @@ main img{
     max-width: 100%;
 }
 
+button {
+    cursor: pointer;
+}
 
 /* -------------- COLORES Y TEXTOS -------------- */
 .yellow-background {

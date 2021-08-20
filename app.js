@@ -6,7 +6,7 @@ const app = express();
 /* Reemplazamos esta linea:
 app.listen(3010, ()=> console.log("Server is running smoothly on port 3010"));
 
-Por la siguiente:                                                          */
+/*Por la siguiente:                                                          */
 app.listen(process.env.PORT ? process.env.PORT : 3010, () => {
     console.log("Server is running smoothly!");
 });
@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "views/index.html"));
 });
 
-app.get("/register.html", (req, res) => {
+app.get("/register", (req, res) => {
     res.sendFile(path.resolve(__dirname, "views/register.html"));
+});
+
+app.get("/login", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "views/login.html"));
 });

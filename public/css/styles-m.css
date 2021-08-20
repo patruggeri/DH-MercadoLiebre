@@ -3,26 +3,53 @@
        No lo declaramos, porque agregamos la condicion 
        al <head> del html <-----
 */
-.header-flex {
-    justify-content: space-between;
+
+.logo {
+    width: 33%;
+}
+
+.search-container {
+    width: 33%;
+}
+
+.header-flex p {
+    width: 33%;
 }
 
 .nav-bar-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 20px;
 }
     
-.nav-bar {
-    display: unset;
-}
-
 .burger-menu {
     display: none;
 }
 
+.nav-bar {
+    display: unset;
+}
+
+.nav-list-left {
+    list-style: none;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+.nav-list-right {
+    list-style: none;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
 .nav-list li {
     padding: 7px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
 }
 
 .text-descriptions {
@@ -47,7 +74,7 @@
 }
 
 
-/* -------------- LOGIN PAGE -------------- */
+/* -------------- REGISTER PAGE -------------- */
 
 .register-form {
     width: 550px;

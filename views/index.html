@@ -19,10 +19,14 @@
 <body class="lightgrey-background">
     <header class="yellow-background padding">
         <div class="header-flex">
-            <img class="logo" src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
-            <div class="search-bar">
-                <input class="search-button" type="text" placeholder="Buscar productos, marcas y más">
-                <i class="fas fa-search"></i>
+            <img class="logo" href="/index.html"src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+            <div class="search-container">
+                <form class="search-bar">
+                    <input type="text" placeholder="Buscar productos, marcas y más">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
             </div>
             <p class="regular-text text-center cuotas">
                 <i class="fas fa-hand-holding-usd"></i>
@@ -31,17 +35,17 @@
         </div>
         <nav class="regular-text nav-bar">
             <div class="nav-bar-flex">
-                <ul class="nav-list flex">
+                <ul class="nav-list nav-list-left flex">
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas Oficiales</a></li>
                     <li><a href="#">Vender</a></li>
                     <li><a href="#">Ayuda</a></li>
                 </ul>
-                <ul class="nav-list flex">
-                    <li><a href="/register.html">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-                    <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <ul class="nav-list nav-list-right flex">
+                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                     <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
-                </ul>                
+                </ul>
             </div>
         </nav>
         <div class="burger-menu">

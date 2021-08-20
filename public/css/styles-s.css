@@ -10,23 +10,43 @@
 .header-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
-    max-width: 50%;
+    width: 50%;
+}
+
+.search-container {
+    padding: 8px;
+    width: 50%;
 }
 
 .search-bar {
-    max-width: 50%;
-    padding: 10px 0px 10px 10px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
-.search-button {
-    border: solid 1px #FFF;
+.search-bar input {
+    border: none;
     border-radius: 5px;
     padding: 7px;
+    height: 30px;
+    background-color: #FFF;
+    width: 100%;
+}
 
+.search-bar button {
+    border: none;
+    border-radius: 5px;
+    padding: 1px 3px;
+    height: 30px;
+    background-color: #FFF;
 }
 
 .padding {
@@ -36,16 +56,6 @@
 .nav-bar {
     justify-content: center;
     display: none;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0px;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: black;
 }
 
 .burger-menu {
@@ -62,9 +72,6 @@
 
 .fa-search {
     background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #666;
     border-radius: 3px;
     padding: 1px;
 }
@@ -144,7 +151,7 @@
 }
 
 
-/* -------------- LOGIN PAGE -------------- */
+/* -------------- REGISTER PAGE -------------- */
 .register-form {
     border-radius: 10px;
     max-width: 90%;
@@ -212,4 +219,12 @@
     color: #FFF;
     width: 150px;
     height: 30px;
+}
+
+
+/* -------------- LOGIN PAGE -------------- */
+
+.login-form {
+    width: 250px;
+    margin: 0 auto 20px;
 }
